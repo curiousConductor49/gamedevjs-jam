@@ -3628,7 +3628,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "I have made a series of deductions.",
+          "string": "I have constructed a hypothesis.",
           "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -3651,7 +3651,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "I have made a series of deductions.",
+            "text": "I have constructed a hypothesis.",
             "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
