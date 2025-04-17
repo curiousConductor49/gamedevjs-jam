@@ -4606,10 +4606,34 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535246,
+        "zoomFactor": 0.5468750000000007,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "TidyDialogueLvl3",
+          "objects": [
+            {
+              "name": "TidyLvl3Line1"
+            },
+            {
+              "name": "TidyLvl3Line2"
+            },
+            {
+              "name": "TidyLvl3Line3"
+            },
+            {
+              "name": "TidyLvl3Line4"
+            },
+            {
+              "name": "TidyLvl3Line5"
+            },
+            {
+              "name": "TidyLvl3Line6"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -4672,9 +4696,9 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "411f98be-cc10-45d5-8413-9ad5eb96f82d",
-          "width": 247,
-          "x": 27,
-          "y": 91,
+          "width": 232,
+          "x": 56,
+          "y": 89,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4689,9 +4713,259 @@
           "name": "Player",
           "persistentUuid": "fdaf1ae7-64b1-433d-a297-d13d3099b1ee",
           "width": 0,
-          "x": 115,
-          "y": 54,
+          "x": 142,
+          "y": 55,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 724,
+          "keepRatio": true,
+          "layer": "Fade",
+          "name": "Black",
+          "persistentUuid": "5792a61d-29c4-4c35-a6bd-52f74b92558d",
+          "width": 1284,
+          "x": -2,
+          "y": -3,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "471a199d-57f6-46fa-94ec-a8e143e642a7",
+          "width": 501,
+          "x": 88,
+          "y": 384,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl3Line1",
+          "persistentUuid": "16c1477e-29bd-44fd-ae21-259b48f57739",
+          "width": 0,
+          "x": 438,
+          "y": 29,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl3Line2",
+          "persistentUuid": "6190718a-d3bd-473e-ba91-72b9528242b6",
+          "width": 0,
+          "x": 389,
+          "y": 71,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl3Line3",
+          "persistentUuid": "9a8dbadb-3c1f-4013-801e-9c8f5940f0a0",
+          "width": 0,
+          "x": 506,
+          "y": 119,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextActivateNub1",
+          "persistentUuid": "65de0d23-0095-469b-8c36-44deb5f5b0df",
+          "width": 40,
+          "x": 153,
+          "y": 56,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "7756bfb9-dc76-46f4-9b9c-50c2ae296971",
+          "width": 280,
+          "x": 686,
+          "y": 474,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "71d4b51f-1e81-492b-b93f-9d8ba98e3bda",
+          "width": 146,
+          "x": 1068,
+          "y": 409,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextActivateNub2",
+          "persistentUuid": "3731f052-dcf5-4fd6-8009-dcfbfba008d0",
+          "width": 500,
+          "x": 87,
+          "y": 349,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl3Line4",
+          "persistentUuid": "f2dbc875-dd0b-4636-a604-9178492ae64a",
+          "width": 0,
+          "x": 57,
+          "y": 456,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl3Line5",
+          "persistentUuid": "0ab87691-e1ab-47d4-8b24-73064562c8fe",
+          "width": 0,
+          "x": 671,
+          "y": 625,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 245,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl3Line6",
+          "persistentUuid": "a6bd23f5-5472-43f4-890d-d5d1ac00e15c",
+          "width": 247,
+          "x": 1024,
+          "y": 468,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextActivateNub3",
+          "persistentUuid": "7542b355-773e-4c14-bf88-b7a25cc64da7",
+          "width": 260,
+          "x": 699,
+          "y": 439,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextActivateNub4",
+          "persistentUuid": "75e13aa7-12a8-48a5-91de-aae1ff358b6d",
+          "width": 44,
+          "x": 1116,
+          "y": 373,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "9a2a47c2-5e69-40cc-be8c-a5fabceeff16",
+          "width": 1280,
+          "x": -1,
+          "y": 556,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4757,6 +5031,288 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl3Line1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "...strange. Peculiar. Baffling, even.",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 50,
+            "g": 13,
+            "r": 39
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "...strange. Peculiar. Baffling, even.",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "39;13;50"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl3Line2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "You have no index. You have no place.",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 102,
+            "g": 38,
+            "r": 137
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "You have no index. You have no place.",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "137;38;102"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl3Line3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Revising hypothesis.",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 143,
+            "g": 105,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Revising hypothesis.",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "255;105;143"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl3Line4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Scans return no displaced pixels here, either.",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 194,
+            "g": 187,
+            "r": 235
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Scans return no displaced pixels here, either.",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "235;187;194"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl3Line5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Yet this colour of yours...",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 194,
+            "g": 187,
+            "r": 235
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Yet this colour of yours...",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "235;187;194"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl3Line6",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Analysis complete. \n\nYou require BALANCE.",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "center",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Analysis complete. \n\nYou require BALANCE.",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 35,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4764,10 +5320,506 @@
         "children": [
           {
             "objectName": "MagentaMorn"
+          },
+          {
+            "objectName": "TidyLvl3Line4"
+          },
+          {
+            "objectName": "TidyLvl3Line5"
+          },
+          {
+            "objectName": "TidyLvl3Line6"
+          },
+          {
+            "objectName": "TidyLvl3Line1"
+          },
+          {
+            "objectName": "TidyLvl3Line2"
+          },
+          {
+            "objectName": "TidyLvl3Line3"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Scene Setup"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Boundary"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Black",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TextActivateNubs",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyDialogueLvl3",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "1280",
+                "720",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Text Activation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TextActivateNub1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line1",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line1",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line2",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line2",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line3",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line3",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TextActivateNub2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line4",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line4",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TextActivateNub3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line5",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line5",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TextActivateNub4",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line6",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl3Line6",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Black",
+                "Tween",
+                "\"FadeAway\"",
+                "255",
+                "\"linear\"",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Black",
+                "Tween",
+                "\"FadeAway\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 4\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -4845,6 +5897,39 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fade",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -4879,6 +5964,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Tween",
