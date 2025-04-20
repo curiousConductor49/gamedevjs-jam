@@ -6114,7 +6114,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535248,
+        "zoomFactor": 0.5843784410740933,
         "windowMask": false
       },
       "objectsGroups": [
@@ -6238,7 +6238,7 @@
           "persistentUuid": "a86bf11b-b660-4c09-9dc9-81552c98abaa",
           "width": 0,
           "x": 199,
-          "y": 545,
+          "y": 541,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -7145,6 +7145,14 @@
                 "Player",
                 "PlatformerObject",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
               ]
             },
             {
