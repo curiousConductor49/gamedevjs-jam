@@ -11308,7 +11308,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000012,
+        "zoomFactor": 0.6244537826600002,
         "windowMask": false
       },
       "objectsGroups": [
@@ -11383,7 +11383,7 @@
           "layer": "Fade",
           "name": "Black",
           "persistentUuid": "72601c16-ab79-4706-a9b0-e2f9bbe945cd",
-          "width": 1285,
+          "width": 1288,
           "x": -3,
           "y": -1,
           "zOrder": 2,
