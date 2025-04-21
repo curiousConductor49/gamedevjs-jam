@@ -569,6 +569,86 @@
         "name": "assets/puzzles/lvl6/lvl6-puzzle5.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/lvl7/lvl7-puzzle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/lvl7/lvl7-puzzle1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/lvl7/lvl7-puzzle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/lvl7/lvl7-puzzle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/lvl7/lvl7-puzzle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/lvl7/lvl7-puzzle3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/lvl7/lvl7-puzzle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/lvl7/lvl7-puzzle4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/lvl7/lvl7-puzzle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/lvl7/lvl7-puzzle5.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -11308,7 +11388,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600002,
+        "zoomFactor": 0.43357743047023817,
         "windowMask": false
       },
       "objectsGroups": [
@@ -14280,11 +14360,51 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.40575189059438255,
+        "zoomFactor": 0.7619362677197612,
         "windowMask": false
       },
-      "objectsGroups": [],
-      "variables": [],
+      "objectsGroups": [
+        {
+          "name": "Lvl7Puzzles",
+          "objects": [
+            {
+              "name": "Lvl7Puzzle1"
+            },
+            {
+              "name": "Lvl7Puzzle2"
+            },
+            {
+              "name": "Lvl7Puzzle3"
+            },
+            {
+              "name": "Lvl7Puzzle4"
+            },
+            {
+              "name": "Lvl7Puzzle5"
+            }
+          ]
+        },
+        {
+          "name": "TidyLvl7Dialogue",
+          "objects": [
+            {
+              "name": "TidyLvl7Line1"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "Lvl7Sequence",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Lvl7PuzzleCheck",
+          "type": "array",
+          "children": []
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -14299,6 +14419,496 @@
           "x": -4,
           "y": 0,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 725,
+          "keepRatio": true,
+          "layer": "Fade",
+          "name": "Black",
+          "persistentUuid": "0e7b34d0-f3ce-4f78-a266-acba48c91656",
+          "width": 1284,
+          "x": -2,
+          "y": -3,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 728,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "e54831d4-a8de-4ce7-bff5-de2bdad44c05",
+          "width": 32,
+          "x": 1280,
+          "y": -4,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 728,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "a290740b-b8ce-468d-98a2-48cbf078bbaf",
+          "width": 32,
+          "x": -32,
+          "y": -5,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl7Line1",
+          "persistentUuid": "7343dc19-8124-4e0c-952d-146fa1128662",
+          "width": 0,
+          "x": 361,
+          "y": 665,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "e4dbb6a4-790c-4929-8830-9da26d1bff9d",
+          "width": 1278,
+          "x": 1,
+          "y": 625,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "7338455e-42cb-438e-8620-a31e837e82ee",
+          "width": 0,
+          "x": 913,
+          "y": 568,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Lvl7Puzzle1",
+          "persistentUuid": "27ec509f-fb74-4b88-b0e0-ef21b61a8fd5",
+          "width": 0,
+          "x": 757,
+          "y": 148,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Lvl7Puzzle2",
+          "persistentUuid": "5778649a-2251-4e6e-9f11-3b2efdba71ac",
+          "width": 0,
+          "x": 464,
+          "y": 180,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Lvl7Puzzle3",
+          "persistentUuid": "60041244-5dbf-4a42-8fa0-fdb799a85404",
+          "width": 0,
+          "x": 307,
+          "y": 336,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Lvl7Puzzle4",
+          "persistentUuid": "d92ba0f2-3378-466c-a1ea-c8a95c6d9036",
+          "width": 0,
+          "x": 562,
+          "y": 414,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Lvl7Puzzle5",
+          "persistentUuid": "acd006a1-5d33-4925-8c25-7d640f821355",
+          "width": 0,
+          "x": 779,
+          "y": 468,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "3322264e-116a-4c51-840f-3e5a08a3a441",
+          "width": 243,
+          "x": 663,
+          "y": 502,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "0453a3f2-22f8-463e-9a4c-86b353f6c263",
+          "width": 104,
+          "x": 561,
+          "y": 453,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "7a4cbc13-904d-4bcd-bb2b-b0a89a98c5be",
+          "width": 206,
+          "x": 300,
+          "y": 453,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "052f39e7-9663-41a9-8f6a-889d3df2d515",
+          "width": 258,
+          "x": 150,
+          "y": 369,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "05778680-7644-44ed-b5f5-fdd322fd40a8",
+          "width": 0,
+          "x": 464,
+          "y": 217,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "20b91de8-9194-4e84-8b75-60d3057750cf",
+          "width": 0,
+          "x": 757,
+          "y": 184,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "f278d9d0-d8b2-4104-8e90-a4ca066258dc",
+          "width": 195,
+          "x": 558,
+          "y": 280,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "fb802fc4-a103-4bce-89e1-cd81bd29ecd0",
+          "width": 0,
+          "x": 659,
+          "y": 215,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "092bc541-ab51-4f8e-afd3-65a2725833a9",
+          "width": 0,
+          "x": 451,
+          "y": 304,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "007fc3ce-c273-46b0-860b-2743f02309ee",
+          "width": 0,
+          "x": 306,
+          "y": 300,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "9f47736b-c52c-47bd-9462-2beb3adf47a1",
+          "width": 0,
+          "x": 465,
+          "y": 143,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "af3e98bd-a59a-451f-bddf-3e8dd44f1c41",
+          "width": 0,
+          "x": 757,
+          "y": 113,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "7e3fe41b-2c8b-4f74-8272-005b0b3ed352",
+          "width": 0,
+          "x": 779,
+          "y": 430,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "e74a8a62-d0f0-4833-83cb-c223976e6a96",
+          "width": 0,
+          "x": 561,
+          "y": 375,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "b6a040fe-9aad-4e73-a47a-30964f9c494a",
+          "width": 0,
+          "x": 1046,
+          "y": 591,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "a39d3475-a865-43ee-bcaa-cec48154962f",
+          "width": 0,
+          "x": 372,
+          "y": 248,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "4555e5a9-c667-40f8-83ab-ef86fcf276b6",
+          "width": 70,
+          "x": 112,
+          "y": 335,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "15a97e0b-cf20-437f-86ce-5185cbedea85",
+          "width": 0,
+          "x": 200,
+          "y": 522,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "58c3cfef-65ce-41ce-b8ab-637d3f000c66",
+          "width": 0,
+          "x": 99,
+          "y": 562,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14364,6 +14974,478 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lvl7Puzzle1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/lvl7/lvl7-puzzle1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lvl7Puzzle2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/lvl7/lvl7-puzzle2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lvl7Puzzle3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/lvl7/lvl7-puzzle3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lvl7Puzzle4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/lvl7/lvl7-puzzle4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lvl7Puzzle5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/lvl7/lvl7-puzzle5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl7Line1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Not here, either...",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 187,
+            "g": 213,
+            "r": 251
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Not here, either...",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "251;213;187"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -14371,11 +15453,322 @@
         "children": [
           {
             "objectName": "RustyEve"
+          },
+          {
+            "objectName": "Lvl7Puzzle1"
+          },
+          {
+            "objectName": "Lvl7Puzzle2"
+          },
+          {
+            "objectName": "Lvl7Puzzle3"
+          },
+          {
+            "objectName": "Lvl7Puzzle4"
+          },
+          {
+            "objectName": "Lvl7Puzzle5"
+          },
+          {
+            "objectName": "TidyLvl7Line1"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Scene Setup"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Black",
+                "Tween",
+                "\"FadeIn\"",
+                "0",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Boundary"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TextActivateNubs",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyLvl7Dialogue",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "=",
+                "\"0\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "1280",
+                "720",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Text + Puzzle Sequence Activation",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle Sequence Activation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Text Activation"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Puzzles",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 2"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 3"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 4"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 5"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Matching the Sequence",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Correct Activation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Incorrect Activation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fade",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -14464,6 +15857,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "FlashEffect",
+          "type": "Flash::FlashEffect"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -14486,6 +15883,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Tween",
