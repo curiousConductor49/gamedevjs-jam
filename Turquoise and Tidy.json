@@ -14360,7 +14360,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7619362677197612,
+        "zoomFactor": 0.604083874998888,
         "windowMask": false
       },
       "objectsGroups": [
@@ -14389,6 +14389,18 @@
           "objects": [
             {
               "name": "TidyLvl7Line1"
+            },
+            {
+              "name": "TidyLvl7Line2"
+            },
+            {
+              "name": "TidyLvl7Line3"
+            },
+            {
+              "name": "TidyLvl7Line4"
+            },
+            {
+              "name": "TidyLvl7Line5"
             }
           ]
         }
@@ -14483,8 +14495,8 @@
           "name": "TidyLvl7Line1",
           "persistentUuid": "7343dc19-8124-4e0c-952d-146fa1128662",
           "width": 0,
-          "x": 361,
-          "y": 665,
+          "x": 677,
+          "y": 604,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -14499,8 +14511,8 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "e4dbb6a4-790c-4929-8830-9da26d1bff9d",
-          "width": 1278,
-          "x": 1,
+          "width": 304,
+          "x": 975,
           "y": 625,
           "zOrder": 5,
           "numberProperties": [],
@@ -14549,7 +14561,7 @@
           "persistentUuid": "5778649a-2251-4e6e-9f11-3b2efdba71ac",
           "width": 0,
           "x": 464,
-          "y": 180,
+          "y": 174,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -14663,7 +14675,7 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "052f39e7-9663-41a9-8f6a-889d3df2d515",
-          "width": 258,
+          "width": 248,
           "x": 150,
           "y": 369,
           "zOrder": 6,
@@ -14681,7 +14693,7 @@
           "persistentUuid": "05778680-7644-44ed-b5f5-fdd322fd40a8",
           "width": 0,
           "x": 464,
-          "y": 217,
+          "y": 210,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -14745,7 +14757,7 @@
           "name": "Platform",
           "persistentUuid": "092bc541-ab51-4f8e-afd3-65a2725833a9",
           "width": 0,
-          "x": 451,
+          "x": 453,
           "y": 304,
           "zOrder": 6,
           "numberProperties": [],
@@ -14778,7 +14790,7 @@
           "persistentUuid": "9f47736b-c52c-47bd-9462-2beb3adf47a1",
           "width": 0,
           "x": 465,
-          "y": 143,
+          "y": 139,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -14858,7 +14870,7 @@
           "persistentUuid": "a39d3475-a865-43ee-bcaa-cec48154962f",
           "width": 0,
           "x": 372,
-          "y": 248,
+          "y": 241,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -14874,7 +14886,7 @@
           "name": "Platform",
           "persistentUuid": "4555e5a9-c667-40f8-83ab-ef86fcf276b6",
           "width": 70,
-          "x": 112,
+          "x": 113,
           "y": 335,
           "zOrder": 6,
           "numberProperties": [],
@@ -14891,7 +14903,7 @@
           "persistentUuid": "15a97e0b-cf20-437f-86ce-5185cbedea85",
           "width": 0,
           "x": 200,
-          "y": 522,
+          "y": 524,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -14908,6 +14920,187 @@
           "width": 0,
           "x": 99,
           "y": 562,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl7Line2",
+          "persistentUuid": "67ad7cfb-4f07-4147-93c9-dfae21355f52",
+          "width": 0,
+          "x": 299,
+          "y": 443,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl7Line3",
+          "persistentUuid": "53d1b6bf-8520-4452-8b89-9cbffafdfdff",
+          "width": 0,
+          "x": 372,
+          "y": 113,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl7Line4",
+          "persistentUuid": "a6672217-fce1-4d44-8af2-dc2066ce125f",
+          "width": 0,
+          "x": 692,
+          "y": 84,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl7Line5",
+          "persistentUuid": "f1d80ef1-eafa-4e4a-a559-d81deaf17e16",
+          "width": 0,
+          "x": 453,
+          "y": 643,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextActivateNub1",
+          "persistentUuid": "9eaddf64-f22c-4443-970a-5a3633c98649",
+          "width": 68,
+          "x": 777,
+          "y": 466,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextActivateNub2",
+          "persistentUuid": "a875134c-9962-4969-86c9-e58903050e1e",
+          "width": 70,
+          "x": 560,
+          "y": 414,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextActivateNub3",
+          "persistentUuid": "d06b87c6-6589-4e3d-ac43-d6c59994ad42",
+          "width": 71,
+          "x": 462,
+          "y": 174,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextActivateNub4",
+          "persistentUuid": "cfce75cc-dcfd-4ee2-8065-2610a66e6075",
+          "width": 75,
+          "x": 751,
+          "y": 147,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "a4eb2e77-afc5-4dc9-b37c-d4bb2aa46053",
+          "width": 0,
+          "x": 13,
+          "y": 519,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "3c679be5-3793-42be-9077-6349bf86e206",
+          "width": 0,
+          "x": 67,
+          "y": 397,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "45e3bd73-437d-495f-8aa3-43d858842111",
+          "width": 70,
+          "x": 186,
+          "y": 333,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -15446,6 +15639,194 @@
             "characterSize": 30,
             "color": "251;213;187"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl7Line2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Or this one...",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 154,
+            "g": 156,
+            "r": 249
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Or this one...",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "249;156;154"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl7Line3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Not even here.",
+          "font": "assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 58,
+            "g": 50,
+            "r": 120
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Not even here.",
+            "font": "assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "120;50;58"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl7Line4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "And not here.",
+          "font": "assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 95,
+            "g": 82,
+            "r": 201
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "And not here.",
+            "font": "assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "201;82;95"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl7Line5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Calibration complete.",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 35,
+          "color": {
+            "b": 187,
+            "g": 213,
+            "r": 251
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Calibration complete.",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 35,
+            "color": "251;213;187"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -15471,6 +15852,18 @@
           },
           {
             "objectName": "TidyLvl7Line1"
+          },
+          {
+            "objectName": "TidyLvl7Line2"
+          },
+          {
+            "objectName": "TidyLvl7Line3"
+          },
+          {
+            "objectName": "TidyLvl7Line4"
+          },
+          {
+            "objectName": "TidyLvl7Line5"
           }
         ]
       },
@@ -15612,6 +16005,356 @@
           "comment": "Puzzle Sequence Activation"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzles",
+                "Effect",
+                "\"Glow\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle5",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle5",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle4",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle4",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle3",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle3",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle2",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle2",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle4",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle4",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle3",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle3",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -15622,6 +16365,250 @@
             "textR": 0
           },
           "comment": "Text Activation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TextActivateNub1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl7Line1",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl7Line1",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TextActivateNub2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl7Line2",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl7Line2",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TextActivateNub3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl7Line3",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl7Line3",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TextActivateNub4",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl7Line4",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl7Line4",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -15647,6 +16634,109 @@
           "comment": "Puzzle 1"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Lvl7Puzzle1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "=",
+                "\"054321431\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "+",
+                "\"1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushNumber"
+              },
+              "parameters": [
+                "Lvl7PuzzleCheck",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Lvl7Puzzle1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -15657,6 +16747,109 @@
             "textR": 0
           },
           "comment": "Puzzle 2"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Lvl7Puzzle2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "=",
+                "\"054321431\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle2",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "+",
+                "\"2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushNumber"
+              },
+              "parameters": [
+                "Lvl7PuzzleCheck",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Lvl7Puzzle2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle2",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -15671,6 +16864,109 @@
           "comment": "Puzzle 3"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Lvl7Puzzle3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "=",
+                "\"054321431\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle3",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "+",
+                "\"3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushNumber"
+              },
+              "parameters": [
+                "Lvl7PuzzleCheck",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Lvl7Puzzle3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle3",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -15683,6 +16979,109 @@
           "comment": "Puzzle 4"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Lvl7Puzzle4",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "=",
+                "\"054321431\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle4",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "+",
+                "\"4\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushNumber"
+              },
+              "parameters": [
+                "Lvl7PuzzleCheck",
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Lvl7Puzzle4",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle4",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -15693,6 +17092,109 @@
             "textR": 0
           },
           "comment": "Puzzle 5"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Lvl7Puzzle5",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "=",
+                "\"054321431\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle5",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "+",
+                "\"5\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushNumber"
+              },
+              "parameters": [
+                "Lvl7PuzzleCheck",
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Lvl7Puzzle5",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle5",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -15718,6 +17220,152 @@
           "comment": "Correct Activation"
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "=",
+                "\"054321431\""
+              ]
+            },
+            {
+              "type": {
+                "value": "VariableChildCount"
+              },
+              "parameters": [
+                "Lvl7PuzzleCheck",
+                "=",
+                "8"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sfx/notifs/correct.wav",
+                "",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl7Line5",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl7Line5",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Black",
+                "Tween",
+                "\"FadeAway\"",
+                "255",
+                "\"linear\"",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Black",
+                "Tween",
+                "\"FadeAway\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 8\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -15731,44 +17379,437 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "=",
+                "\"054321431\""
+              ]
+            },
+            {
+              "type": {
+                "value": "VariableChildCount"
+              },
+              "parameters": [
+                "Lvl7PuzzleCheck",
+                "=",
+                "8"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sfx/notifs/incorrect.wav",
+                "",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Lvl7Sequence",
+                "=",
+                "\"0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClearVariableChildren"
+              },
+              "parameters": [
+                "Lvl7PuzzleCheck"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1046",
+                "=",
+                "591"
+              ]
+            },
+            {
+              "type": {
+                "value": "Flash::FlashEffect::Flash"
+              },
+              "parameters": [
+                "Lvl7Puzzles",
+                "FlashEffect",
+                "0.5",
+                "\"Glow\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzles",
+                "Effect",
+                "\"Glow\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle5",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle5",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle4",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle4",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle3",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle3",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle2",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle2",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle4",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle4",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle3",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle3",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl7Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "no"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fade",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -15828,6 +17869,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fade",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
