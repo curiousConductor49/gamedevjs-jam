@@ -768,6 +768,270 @@
         "metadata": "",
         "name": "assets/fonts/hacked-font/Hacked-KerX.ttf",
         "userAdded": false
+      },
+      {
+        "file": "assets/FinalePuzzle1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "FinalePuzzle1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/FinalePuzzle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "FinalePuzzle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle1-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle1-outline.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle1-whole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle1-whole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Outline.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Outline",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Whole.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Whole",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle2-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle2-outline.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle2-whole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle2-whole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Outline2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Outline2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Whole2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Whole2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle3-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle3-outline.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle3-whole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle3-whole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Outline3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Outline3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Whole3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Whole3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle4-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle4-outline.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle4-whole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle4-whole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Outline4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Outline4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Whole4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Whole4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle5-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle5-outline.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle5-whole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle5-whole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Outline5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Outline5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Whole5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Whole5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle6-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle6-outline.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle6-whole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle6-whole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Outline6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Outline6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Whole6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Whole6.png\"}",
+        "name": "Whole6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Outline7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Outline7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle7-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle7-outline.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle7-whole.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/puzzles/finale/FinalePuzzle7-whole.png\",\"extension\":\".png\"}",
+        "name": "assets/puzzles/finale/FinalePuzzle7-whole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Outline8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Outline8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Whole7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Whole7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle8-outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle8-outline.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/puzzles/finale/FinalePuzzle8-whole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/puzzles/finale/FinalePuzzle8-whole.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -23707,11 +23971,145 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513977,
+        "zoomFactor": 0.5468750000000012,
         "windowMask": false
       },
-      "objectsGroups": [],
-      "variables": [],
+      "objectsGroups": [
+        {
+          "name": "TidyFinaleDialogue",
+          "objects": [
+            {
+              "name": "TidyFinaleLine1"
+            },
+            {
+              "name": "TidyFinaleLine3"
+            },
+            {
+              "name": "TidyFinaleLine2"
+            },
+            {
+              "name": "TidyFinaleLine4"
+            },
+            {
+              "name": "TidyFinaleLine5"
+            },
+            {
+              "name": "TidyFinaleLine6"
+            }
+          ]
+        },
+        {
+          "name": "FinalePuzzles",
+          "objects": [
+            {
+              "name": "FinalePuzzle1"
+            },
+            {
+              "name": "FinalePuzzle2"
+            },
+            {
+              "name": "FinalePuzzle3"
+            },
+            {
+              "name": "FinalePuzzle4"
+            },
+            {
+              "name": "FinalePuzzle5"
+            },
+            {
+              "name": "FinalePuzzle6"
+            },
+            {
+              "name": "FinalePuzzle7"
+            },
+            {
+              "name": "FinalePuzzle8"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "FinaleSequence1",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "FinalePuzzleCheck1",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "FinaleSequence2",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "FinalePuzzleCheck2",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "FinaleSequence3",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "FinalePuzzleCheck3",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "FinaleSequence4",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "FinalePuzzleCheck4",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "FinaleSequence5",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "FinalePuzzleCheck5",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "FinaleSequence6",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "FinalePuzzleCheck6",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "FinaleSequence7",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "FinalePuzzleCheck7",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "FinaleSequence8",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "FinalePuzzleCheck8",
+          "type": "array",
+          "children": []
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -23720,12 +24118,225 @@
           "height": 724,
           "keepRatio": true,
           "layer": "Background",
-          "name": "DeepNight",
+          "name": "Environment",
           "persistentUuid": "c9a8dd5a-f9b9-4b81-98b2-afa804aebcdf",
           "width": 1287,
           "x": -1,
           "y": -3,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 726,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "446aee16-5089-4486-b6b5-6db1f3519be5",
+          "width": 32,
+          "x": 1281,
+          "y": -6,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 726,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boundary",
+          "persistentUuid": "a99c18b1-b3af-4638-96a0-c4190c040db2",
+          "width": 32,
+          "x": -32,
+          "y": -6,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "Fade",
+          "name": "Black",
+          "persistentUuid": "649c26b1-83b3-4279-b19d-ff016ea1c2e7",
+          "width": 1279,
+          "x": 2,
+          "y": -1,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyFinaleLine1",
+          "persistentUuid": "bf08a4d3-2e46-43bb-9c22-8297242dcf0c",
+          "width": 0,
+          "x": 576,
+          "y": 93,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyFinaleLine3",
+          "persistentUuid": "f29650f8-f495-4f17-a31a-97beba076ee9",
+          "width": 0,
+          "x": 384,
+          "y": 385,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyFinaleLine2",
+          "persistentUuid": "c053e492-f690-4489-9ed4-79d842ff9a8b",
+          "width": 0,
+          "x": 485,
+          "y": 445,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyFinaleLine4",
+          "persistentUuid": "aa2769c1-03e4-422d-b058-09cb4d2dc143",
+          "width": 0,
+          "x": 378,
+          "y": 509,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyFinaleLine5",
+          "persistentUuid": "bd74f352-72d1-44a1-b039-ceeade24b908",
+          "width": 0,
+          "x": 202,
+          "y": 578,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyFinaleLine6",
+          "persistentUuid": "149f58e3-7a89-4ecc-84cf-c54ea5b9abb6",
+          "width": 0,
+          "x": 80,
+          "y": 262,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyFinaleLine7",
+          "persistentUuid": "a54647b2-f638-460b-b7a0-9ebe056f1945",
+          "width": 0,
+          "x": 737,
+          "y": 378,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "76728598-9e4c-475c-80f4-053626610530",
+          "width": 500,
+          "x": 404,
+          "y": 402,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "8d94d179-1ba4-4806-a4c2-2c5c64c01389",
+          "width": 0,
+          "x": 436,
+          "y": 6,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "490fe2ef-c50f-4610-8770-56ee5575c61d",
+          "width": 1282,
+          "x": -1,
+          "y": 470,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23735,7 +24346,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "DeepNight",
+          "name": "Environment",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -23743,7 +24354,343 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "palemorn",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/backgrounds/pale-morn.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 1296
+                          },
+                          {
+                            "x": 0,
+                            "y": 1296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "magentamorn",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/backgrounds/magenta-morn.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 1296
+                          },
+                          {
+                            "x": 0,
+                            "y": 1296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "bluenoon",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/backgrounds/blue-noon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 1296
+                          },
+                          {
+                            "x": 0,
+                            "y": 1296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "dimdusk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/backgrounds/dim-dusk.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 1296
+                          },
+                          {
+                            "x": 0,
+                            "y": 1296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "rosydusk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/backgrounds/rosy-dusk.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 1296
+                          },
+                          {
+                            "x": 0,
+                            "y": 1296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "rusty-eve",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/backgrounds/rusty-eve.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 1296
+                          },
+                          {
+                            "x": 0,
+                            "y": 1296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "violetnight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/backgrounds/violet-night.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 0
+                          },
+                          {
+                            "x": 2304,
+                            "y": 1296
+                          },
+                          {
+                            "x": 0,
+                            "y": 1296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "deepnight",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -23791,18 +24738,1924 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyFinaleLine1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "I am TIDY.",
+          "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "I am TIDY.",
+            "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "48;224;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyFinaleLine3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "You are not lost. You are not placeless.",
+          "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "You are not lost. You are not placeless.",
+            "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "48;224;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyFinaleLine2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "And I've finally found you.",
+          "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "And I've finally found you.",
+            "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "48;224;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyFinaleLine4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "You, little pixel, are my BALANCE.",
+          "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "You, little pixel, are my BALANCE.",
+            "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "48;224;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyFinaleLine5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "There is always an outlier, a difference, an odd one out against the world.\nThe Architects did not tell me this.\nThis beauty in imperfection.\n",
+          "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "There is always an outlier, a difference, an odd one out against the world.\nThe Architects did not tell me this.\nThis beauty in imperfection.\n",
+            "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "48;224;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyFinaleLine6",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Thank you.\nMay you wander free, by your own order and harmony.",
+          "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Thank you.\nMay you wander free, by your own order and harmony.",
+            "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "color": "48;224;209"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FinalePuzzle1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "Outline",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle1-outline.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Whole",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle1-whole.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FinalePuzzle2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "Outline",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle2-outline.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Whole",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle2-whole.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FinalePuzzle3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "Outline",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle3-outline.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Whole",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle3-whole.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FinalePuzzle4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "Outline",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle4-outline.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Whole",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle4-whole.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FinalePuzzle5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "Outline",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle5-outline.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Whole",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle5-whole.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FinalePuzzle6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "Outline",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle6-outline.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Whole",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle6-whole.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FinalePuzzle7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "Outline",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle7-outline.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Whole",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle7-whole.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FinalePuzzle8",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "FlashEffect",
+              "type": "Flash::FlashEffect",
+              "Effect": "Effect",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0,
+              "EffectName": ""
+            }
+          ],
+          "animations": [
+            {
+              "name": "Outline",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle8-outline.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Whole",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/puzzles/finale/FinalePuzzle8-whole.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyFinaleLine7",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Ready?",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Ready?",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "48;224;209"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "DeepNight"
+            "objectName": "Environment"
+          },
+          {
+            "objectName": "FinalePuzzle1"
+          },
+          {
+            "objectName": "FinalePuzzle2"
+          },
+          {
+            "objectName": "FinalePuzzle3"
+          },
+          {
+            "objectName": "FinalePuzzle4"
+          },
+          {
+            "objectName": "FinalePuzzle5"
+          },
+          {
+            "objectName": "FinalePuzzle6"
+          },
+          {
+            "objectName": "FinalePuzzle7"
+          },
+          {
+            "objectName": "FinalePuzzle8"
+          },
+          {
+            "objectName": "TidyFinaleLine1"
+          },
+          {
+            "objectName": "TidyFinaleLine4"
+          },
+          {
+            "objectName": "TidyFinaleLine2"
+          },
+          {
+            "objectName": "TidyFinaleLine3"
+          },
+          {
+            "objectName": "TidyFinaleLine5"
+          },
+          {
+            "objectName": "TidyFinaleLine6"
+          },
+          {
+            "objectName": "TidyFinaleLine7"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Scene Setup"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Black",
+                "Tween",
+                "\"FadeIn\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Boundary"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TextActivateNubs",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyFinaleDialogue",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FinalePuzzles",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "1280",
+                "720",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Text + Puzzle Sequence Activation",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle Sequence Activation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Text Activation"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Puzzles",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 2"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 3"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 4"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 5"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 6"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 7"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Puzzle 8"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Matching the Sequence",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TidyFinaleLine7",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyFinaleLine7",
+                "Text",
+                "=",
+                "\"Let's see...\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyFinaleLine7",
+                "Text",
+                "=",
+                "\"Balanced!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Environment",
+                "Animation",
+                "=",
+                "\"magentamorn\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyFinaleLine7",
+                "Text",
+                "=",
+                "\"Ready?\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TidyFinaleLine7",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "TidyFinaleLine7",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Correct Activation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Incorrect Activation"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fade",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -23891,6 +26744,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "FlashEffect",
+          "type": "Flash::FlashEffect"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -23913,6 +26770,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Tween",
