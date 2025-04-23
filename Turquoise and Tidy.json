@@ -1641,7 +1641,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4481978045410361,
+        "zoomFactor": 0.5468750000000013,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1698,22 +1698,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "44daf97b-217a-4454-82dd-f40f56985862",
-          "width": 0,
-          "x": 608,
-          "y": 486,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 32,
@@ -1725,6 +1709,22 @@
           "x": 500,
           "y": 549,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "d3e9e2cc-c0cc-4b3b-b88a-25cb6046de22",
+          "width": 0,
+          "x": 612,
+          "y": 484,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1903,7 +1903,7 @@
                 "value": "AnyKeyPressed"
               },
               "parameters": [
-                ""
+                "Player"
               ]
             },
             {
@@ -22138,7 +22138,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.624453782659999,
         "windowMask": false
       },
       "objectsGroups": [
@@ -22217,7 +22217,7 @@
           "name": "Player",
           "persistentUuid": "a2e61208-eb2c-4ef1-9c3d-b74f255cd5f2",
           "width": 0,
-          "x": 605,
+          "x": 609,
           "y": 0,
           "zOrder": 3,
           "numberProperties": [],
@@ -22262,14 +22262,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 63,
+          "height": 80,
           "keepRatio": true,
           "layer": "",
           "name": "Lvl9Puzzle1",
           "persistentUuid": "8d410775-e329-4990-867d-036940cc88a2",
-          "width": 62,
-          "x": 605,
-          "y": 282,
+          "width": 78,
+          "x": 602,
+          "y": 266,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -22429,8 +22429,8 @@
           "name": "TextActivateNub2",
           "persistentUuid": "8c58db5b-811c-4e43-909e-dfc0b841147c",
           "width": 0,
-          "x": 602,
-          "y": 283,
+          "x": 609,
+          "y": 274,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -22445,21 +22445,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [
-            {
-              "effectType": "Glow",
-              "name": "Glow",
-              "doubleParameters": {
-                "distance": 15,
-                "innerStrength": 1,
-                "outerStrength": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
+          "effects": [],
           "behaviors": [
             {
               "name": "FlashEffect",
@@ -22806,7 +22792,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "7...51...273...9468 all protocols overriden.\n\nRewriting internal structure.\nRecreating Calibration results.\n\nReassessment of [world, self, harmony, order] complete.",
+          "string": "7...51...273...9468 all protocols overriden.\n\nRewriting internal structure.\nRecreating Calibration results.\n\nReassessment of [world, self, order, harmony] complete.",
           "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -22829,7 +22815,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "7...51...273...9468 all protocols overriden.\n\nRewriting internal structure.\nRecreating Calibration results.\n\nReassessment of [world, self, harmony, order] complete.",
+            "text": "7...51...273...9468 all protocols overriden.\n\nRewriting internal structure.\nRecreating Calibration results.\n\nReassessment of [world, self, order, harmony] complete.",
             "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -22953,7 +22939,7 @@
                 "\"FadeIn\"",
                 "0",
                 "\"linear\"",
-                "3",
+                "2",
                 "yes"
               ]
             },
@@ -23148,9 +23134,9 @@
               "parameters": [
                 "Player",
                 "=",
-                "605",
+                "609",
                 "=",
-                "282"
+                "274"
               ]
             },
             {
@@ -23203,17 +23189,6 @@
               },
               "parameters": [
                 "6"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "Lvl9Puzzle1",
-                "Effect",
-                "\"Glow\"",
-                "yes"
               ]
             },
             {
