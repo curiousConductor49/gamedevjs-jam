@@ -761,6 +761,13 @@
         "name": "assets/puzzles/lvl9/lvl9-puzzle1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -22134,7 +22141,37 @@
         "zoomFactor": 0.546875,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "TidyLvl9Dialogue",
+          "objects": [
+            {
+              "name": "TidyLvl9Line1"
+            },
+            {
+              "name": "TidyLvl9Line2"
+            },
+            {
+              "name": "TidyLvl9Line3"
+            },
+            {
+              "name": "TidyLvl9Line4"
+            },
+            {
+              "name": "TidyLvl9Line5"
+            },
+            {
+              "name": "TidyLvl9Line6"
+            },
+            {
+              "name": "TidyLvl9Line7"
+            },
+            {
+              "name": "TidyLvl9Line8"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -22180,7 +22217,7 @@
           "name": "Player",
           "persistentUuid": "a2e61208-eb2c-4ef1-9c3d-b74f255cd5f2",
           "width": 0,
-          "x": 607,
+          "x": 605,
           "y": 0,
           "zOrder": 3,
           "numberProperties": [],
@@ -22224,15 +22261,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 5,
-          "height": 323,
+          "depth": 2,
+          "height": 63,
           "keepRatio": true,
           "layer": "",
           "name": "Lvl9Puzzle1",
           "persistentUuid": "8d410775-e329-4990-867d-036940cc88a2",
-          "width": 323,
-          "x": 461,
-          "y": 320,
+          "width": 62,
+          "x": 605,
+          "y": 282,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -22240,17 +22277,128 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Platform",
-          "persistentUuid": "9d06ebb1-0f61-4a34-b1bd-de31e937c978",
-          "width": 304,
-          "x": 471,
-          "y": 371,
+          "name": "TidyLvl9Line1",
+          "persistentUuid": "cb8b4984-8c28-422d-a498-1ea1ef709581",
+          "width": 0,
+          "x": 258,
+          "y": 155,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl9Line2",
+          "persistentUuid": "99120285-eb5e-43e9-a95e-4e260493a6de",
+          "width": 0,
+          "x": 474,
+          "y": 432,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl9Line3",
+          "persistentUuid": "f613517b-59c4-4fa8-b8c1-1d443e594f2b",
+          "width": 0,
+          "x": 196,
+          "y": 523,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl9Line4",
+          "persistentUuid": "4dff9bb4-c2b9-438c-936e-2bb9dc27fe03",
+          "width": 0,
+          "x": 386,
+          "y": 383,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl9Line5",
+          "persistentUuid": "fcb43fc4-e466-4bb1-ad2b-0e95e27a8774",
+          "width": 0,
+          "x": 70,
+          "y": 154,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl9Line6",
+          "persistentUuid": "c7605485-f8b0-4c07-821f-37bea5d38490",
+          "width": 0,
+          "x": 383,
+          "y": 481,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl9Line7",
+          "persistentUuid": "7203aba4-7a31-4715-a430-370010e5faff",
+          "width": 0,
+          "x": 276,
+          "y": 39,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TidyLvl9Line8",
+          "persistentUuid": "ea82ac82-12ce-40c3-897f-0ef98239f145",
+          "width": 0,
+          "x": 520,
+          "y": 381,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22262,63 +22410,28 @@
           "height": 64,
           "keepRatio": true,
           "layer": "",
-          "name": "Platform",
-          "persistentUuid": "854a6ec1-a3cd-49d7-ae6d-0e39e06a345d",
-          "width": 304,
-          "x": 471,
-          "y": 446,
-          "zOrder": 7,
+          "name": "TextActivateNub1",
+          "persistentUuid": "405eb483-247f-4075-9f57-1a27b42b9a1f",
+          "width": 299,
+          "x": 476,
+          "y": 578,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Platform",
-          "persistentUuid": "1258fe66-d169-4826-8971-f6e37c212fd4",
-          "width": 304,
-          "x": 471,
-          "y": 536,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "65468c79-18b7-44ad-bc62-5f57821a6238",
-          "width": 301,
-          "x": 420,
-          "y": 448,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "8c24cadb-f139-499d-a021-b2144a3582b2",
-          "width": 301,
-          "x": 531,
-          "y": 447,
-          "zOrder": 8,
+          "name": "TextActivateNub2",
+          "persistentUuid": "8c58db5b-811c-4e43-909e-dfc0b841147c",
+          "width": 0,
+          "x": 602,
+          "y": 283,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22409,6 +22522,367 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl9Line1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Here is your place, if nowhere else.",
+          "font": "assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Here is your place, if nowhere else.",
+            "font": "assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl9Line2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "(it is not your place, little pixel)",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "(it is not your place, little pixel)",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "48;224;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl9Line3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Everything has a place. I have a place. I—",
+          "font": "assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Everything has a place. I have a place. I—",
+            "font": "assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl9Line4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "(you have never been truly balanced)",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "(you have never been truly balanced)",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "48;224;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl9Line5",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "I...I have been instructed by the Architects. They said—",
+          "font": "assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "I...I have been instructed by the Architects. They said—",
+            "font": "assets/fonts/glitch-goblin-font/GlitchGoblin-2O87v.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl9Line6",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "(perhaps you have never needed to be)",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "(perhaps you have never needed to be)",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "48;224;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl9Line7",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "7...51...273...9468 all protocols overriden.\n\nRewriting internal structure.\nRecreating Calibration results.\n\nReassessment of [world, self, harmony, order] complete.",
+          "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 209,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "7...51...273...9468 all protocols overriden.\n\nRewriting internal structure.\nRecreating Calibration results.\n\nReassessment of [world, self, harmony, order] complete.",
+            "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "48;224;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TidyLvl9Line8",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Oh.\nI see it now.",
+          "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 194,
+            "g": 227,
+            "r": 80
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Oh.\nI see it now.",
+            "font": "assets/fonts/hacked-font/Hacked-KerX.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "color": "80;227;194"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -22416,6 +22890,30 @@
         "children": [
           {
             "objectName": "Lvl9Puzzle1"
+          },
+          {
+            "objectName": "TidyLvl9Line1"
+          },
+          {
+            "objectName": "TidyLvl9Line2"
+          },
+          {
+            "objectName": "TidyLvl9Line3"
+          },
+          {
+            "objectName": "TidyLvl9Line4"
+          },
+          {
+            "objectName": "TidyLvl9Line5"
+          },
+          {
+            "objectName": "TidyLvl9Line6"
+          },
+          {
+            "objectName": "TidyLvl9Line7"
+          },
+          {
+            "objectName": "TidyLvl9Line8"
           }
         ]
       },
@@ -22480,6 +22978,17 @@
             },
             {
               "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyLvl9Dialogue",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "PlatformBehavior::MaxFallingSpeed"
               },
               "parameters": [
@@ -22525,9 +23034,523 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Text Activation"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl9Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TextActivateNub1",
+                "Platform",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyLvl9Line1",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyLvl9Line1",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TidyLvl9Line1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "605",
+                "=",
+                "282"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TextActivateNub1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TextActivateNub2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Lvl9Puzzle1",
+                "Effect",
+                "\"Glow\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl9Line2",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl9Line2",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyLvl9Line3",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyLvl9Line3",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TidyLvl9Line3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl9Line4",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl9Line4",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyLvl9Line5",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "TidyLvl9Line5",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TidyLvl9Line5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl9Line6",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl9Line6",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl9Line7",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl9Line7",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl9Line8",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Lvl9Puzzle1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyLvl9Line8",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Platform",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -22678,6 +23701,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Tween",
