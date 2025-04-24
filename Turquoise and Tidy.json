@@ -2174,10 +2174,11 @@
           "conditions": [
             {
               "type": {
-                "value": "AnyKeyPressed"
+                "value": "KeyFromTextPressed"
               },
               "parameters": [
-                "Player"
+                "",
+                "\"a\""
               ]
             },
             {
@@ -26658,6 +26659,12 @@
                 "Tween",
                 "\"FadeAway\""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -26688,7 +26695,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "5"
+                "3"
               ]
             },
             {
@@ -26747,6 +26754,14 @@
                 "\"linear\"",
                 "1",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
               ]
             },
             {
