@@ -1032,6 +1032,16 @@
         "name": "assets/puzzles/finale/FinalePuzzle8-whole.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sfx/puzzle-noises/attention-jingle.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/puzzle-noises/attention-jingle.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -23971,7 +23981,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998329987,
+        "zoomFactor": 0.5468750000000013,
         "windowMask": false
       },
       "objectsGroups": [
@@ -23995,6 +24005,9 @@
             },
             {
               "name": "TidyFinaleLine6"
+            },
+            {
+              "name": "TidyFinaleLine7"
             }
           ]
         },
@@ -24002,28 +24015,7 @@
           "name": "FinalePuzzles",
           "objects": [
             {
-              "name": "FinalePuzzle1"
-            },
-            {
-              "name": "FinalePuzzle2"
-            },
-            {
-              "name": "FinalePuzzle3"
-            },
-            {
-              "name": "FinalePuzzle4"
-            },
-            {
-              "name": "FinalePuzzle5"
-            },
-            {
-              "name": "FinalePuzzle6"
-            },
-            {
-              "name": "FinalePuzzle7"
-            },
-            {
-              "name": "FinalePuzzle8"
+              "name": "FinalePuzzle"
             }
           ]
         }
@@ -24131,8 +24123,8 @@
           "layer": "Fade",
           "name": "Black",
           "persistentUuid": "649c26b1-83b3-4279-b19d-ff016ea1c2e7",
-          "width": 1279,
-          "x": 2,
+          "width": 1285,
+          "x": -4,
           "y": -1,
           "zOrder": 3,
           "numberProperties": [],
@@ -24224,7 +24216,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Fade",
           "name": "TidyFinaleLine6",
           "persistentUuid": "149f58e3-7a89-4ecc-84cf-c54ea5b9abb6",
           "width": 0,
@@ -24311,9 +24303,41 @@
           "name": "Platform",
           "persistentUuid": "a47e9fc8-05eb-4cf9-a63f-a5c70d38f203",
           "width": 0,
-          "x": 506,
-          "y": 330,
+          "x": 545,
+          "y": 331,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FinalePuzzle",
+          "persistentUuid": "30b2f1d9-affd-4dff-a847-51e8cf363a9d",
+          "width": 0,
+          "x": 545,
+          "y": 367,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fade",
+          "name": "Credits",
+          "persistentUuid": "c2be164e-c5ef-44b5-aa71-f6366143a88a",
+          "width": 0,
+          "x": 252,
+          "y": 234,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24330,342 +24354,6 @@
           "effects": [],
           "behaviors": [],
           "animations": [
-            {
-              "name": "palemorn",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/backgrounds/pale-morn.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 1296
-                          },
-                          {
-                            "x": 0,
-                            "y": 1296
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "magentamorn",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/backgrounds/magenta-morn.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 1296
-                          },
-                          {
-                            "x": 0,
-                            "y": 1296
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "bluenoon",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/backgrounds/blue-noon.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 1296
-                          },
-                          {
-                            "x": 0,
-                            "y": 1296
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "dimdusk",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/backgrounds/dim-dusk.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 1296
-                          },
-                          {
-                            "x": 0,
-                            "y": 1296
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "rosydusk",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/backgrounds/rosy-dusk.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 1296
-                          },
-                          {
-                            "x": 0,
-                            "y": 1296
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "rusty-eve",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/backgrounds/rusty-eve.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 1296
-                          },
-                          {
-                            "x": 0,
-                            "y": 1296
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "violetnight",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/backgrounds/violet-night.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 0
-                          },
-                          {
-                            "x": 2304,
-                            "y": 1296
-                          },
-                          {
-                            "x": 0,
-                            "y": 1296
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
             {
               "name": "deepnight",
               "useMultipleDirections": false,
@@ -25001,7 +24689,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "FinalePuzzle1",
+          "name": "FinalePuzzle",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -25033,7 +24721,7 @@
           ],
           "animations": [
             {
-              "name": "Outline",
+              "name": "Puzzle1Outline",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -25082,7 +24770,7 @@
               ]
             },
             {
-              "name": "Whole",
+              "name": "Puzzle1Whole",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -25129,50 +24817,13 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FinalePuzzle2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
+            },
             {
-              "effectType": "Glow",
-              "name": "Glow",
-              "doubleParameters": {
-                "distance": 15,
-                "innerStrength": 1,
-                "outerStrength": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "FlashEffect",
-              "type": "Flash::FlashEffect",
-              "Effect": "Effect",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0,
-              "EffectName": ""
-            }
-          ],
-          "animations": [
-            {
-              "name": "Outline",
+              "name": "Puzzle2Outline",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25216,12 +24867,11 @@
               ]
             },
             {
-              "name": "Whole",
+              "name": "Puzzle2Whole",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25263,50 +24913,13 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FinalePuzzle3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
+            },
             {
-              "effectType": "Glow",
-              "name": "Glow",
-              "doubleParameters": {
-                "distance": 15,
-                "innerStrength": 1,
-                "outerStrength": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "FlashEffect",
-              "type": "Flash::FlashEffect",
-              "Effect": "Effect",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0,
-              "EffectName": ""
-            }
-          ],
-          "animations": [
-            {
-              "name": "Outline",
+              "name": "Puzzle3Outline",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25350,12 +24963,11 @@
               ]
             },
             {
-              "name": "Whole",
+              "name": "Puzzle3Whole",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25397,50 +25009,13 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FinalePuzzle4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
+            },
             {
-              "effectType": "Glow",
-              "name": "Glow",
-              "doubleParameters": {
-                "distance": 15,
-                "innerStrength": 1,
-                "outerStrength": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "FlashEffect",
-              "type": "Flash::FlashEffect",
-              "Effect": "Effect",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0,
-              "EffectName": ""
-            }
-          ],
-          "animations": [
-            {
-              "name": "Outline",
+              "name": "Puzzle4Outline",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25484,12 +25059,11 @@
               ]
             },
             {
-              "name": "Whole",
+              "name": "Puzzle4Whole",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25531,50 +25105,13 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FinalePuzzle5",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
+            },
             {
-              "effectType": "Glow",
-              "name": "Glow",
-              "doubleParameters": {
-                "distance": 15,
-                "innerStrength": 1,
-                "outerStrength": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "FlashEffect",
-              "type": "Flash::FlashEffect",
-              "Effect": "Effect",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0,
-              "EffectName": ""
-            }
-          ],
-          "animations": [
-            {
-              "name": "Outline",
+              "name": "Puzzle5Outline",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25618,12 +25155,11 @@
               ]
             },
             {
-              "name": "Whole",
+              "name": "Puzzle5Whole",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25665,50 +25201,13 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FinalePuzzle6",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
+            },
             {
-              "effectType": "Glow",
-              "name": "Glow",
-              "doubleParameters": {
-                "distance": 15,
-                "innerStrength": 1,
-                "outerStrength": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "FlashEffect",
-              "type": "Flash::FlashEffect",
-              "Effect": "Effect",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0,
-              "EffectName": ""
-            }
-          ],
-          "animations": [
-            {
-              "name": "Outline",
+              "name": "Puzzle6Outline",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25752,12 +25251,11 @@
               ]
             },
             {
-              "name": "Whole",
+              "name": "Puzzle6Whole",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25799,50 +25297,13 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FinalePuzzle7",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
+            },
             {
-              "effectType": "Glow",
-              "name": "Glow",
-              "doubleParameters": {
-                "distance": 15,
-                "innerStrength": 1,
-                "outerStrength": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "FlashEffect",
-              "type": "Flash::FlashEffect",
-              "Effect": "Effect",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0,
-              "EffectName": ""
-            }
-          ],
-          "animations": [
-            {
-              "name": "Outline",
+              "name": "Puzzle7Outline",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25886,12 +25347,11 @@
               ]
             },
             {
-              "name": "Whole",
+              "name": "Puzzle7Whole",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -25933,50 +25393,13 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FinalePuzzle8",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
+            },
             {
-              "effectType": "Glow",
-              "name": "Glow",
-              "doubleParameters": {
-                "distance": 15,
-                "innerStrength": 1,
-                "outerStrength": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "FlashEffect",
-              "type": "Flash::FlashEffect",
-              "Effect": "Effect",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0,
-              "EffectName": ""
-            }
-          ],
-          "animations": [
-            {
-              "name": "Outline",
+              "name": "Puzzle8Outline",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -26020,12 +25443,11 @@
               ]
             },
             {
-              "name": "Whole",
+              "name": "Puzzle8Whole",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -26086,7 +25508,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Ready?",
+          "string": "Together?",
           "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -26109,12 +25531,59 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Ready?",
+            "text": "Together?",
             "font": "assets/fonts/timeburner-font/Timeburner-xJB8.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 40,
             "color": "48;224;209"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Credits",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "CREDITS\n\n- Hacked Font from FontSpace (“Hacked” by “David Libeau”)\n- Backgrounds from Craftpix.net\n- Sfx from authors on Freesound\n- All other assets made by me or taken for free use",
+          "font": "assets/fonts/tokyo-font/TokyoRegular-3lmq6.ttf",
+          "textAlignment": "center",
+          "characterSize": 25,
+          "color": {
+            "b": 208,
+            "g": 224,
+            "r": 48
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "CREDITS\n\n- Hacked Font from FontSpace (“Hacked” by “David Libeau”)\n- Backgrounds from Craftpix.net\n- Sfx from authors on Freesound\n- All other assets made by me or taken for free use",
+            "font": "assets/fonts/tokyo-font/TokyoRegular-3lmq6.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 25,
+            "color": "48;224;208"
           }
         }
       ],
@@ -26125,28 +25594,7 @@
             "objectName": "Environment"
           },
           {
-            "objectName": "FinalePuzzle1"
-          },
-          {
-            "objectName": "FinalePuzzle2"
-          },
-          {
-            "objectName": "FinalePuzzle3"
-          },
-          {
-            "objectName": "FinalePuzzle4"
-          },
-          {
-            "objectName": "FinalePuzzle5"
-          },
-          {
-            "objectName": "FinalePuzzle6"
-          },
-          {
-            "objectName": "FinalePuzzle7"
-          },
-          {
-            "objectName": "FinalePuzzle8"
+            "objectName": "FinalePuzzle"
           },
           {
             "objectName": "TidyFinaleLine1"
@@ -26168,6 +25616,9 @@
           },
           {
             "objectName": "TidyFinaleLine7"
+          },
+          {
+            "objectName": "Credits"
           }
         ]
       },
@@ -26214,7 +25665,7 @@
                 "0",
                 "\"linear\"",
                 "1",
-                "yes"
+                "no"
               ]
             },
             {
@@ -26242,6 +25693,17 @@
               },
               "parameters": [
                 "TidyFinaleDialogue",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Credits",
                 "Opacity",
                 "=",
                 "0"
@@ -26286,18 +25748,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Text + Puzzle Sequence Activation",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Puzzle 1",
+          "name": "Text + Sequence Activation",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -26320,13 +25771,10 @@
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                "value": "DepartScene"
               },
               "parameters": [
-                "Environment",
-                "Animation",
-                "=",
-                "\"palemorn\""
+                ""
               ]
             },
             {
@@ -26339,22 +25787,10 @@
           "actions": [
             {
               "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "FinalePuzzle1",
-                "506",
-                "367",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 ""
@@ -26451,7 +25887,7 @@
               "parameters": [
                 "TidyFinaleLine2",
                 "=",
-                "366"
+                "325"
               ]
             },
             {
@@ -26462,7 +25898,7 @@
                 "TidyFinaleLine2",
                 "Text",
                 "=",
-                "\"Touch 'Ready?' to confirm the sequence\""
+                "\"Touch my code to confirm the final sequence.\""
               ]
             },
             {
@@ -26500,7 +25936,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "yes"
@@ -26519,7 +25955,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "no"
@@ -26538,7 +25974,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "yes"
@@ -26557,7 +25993,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "no"
@@ -26576,7 +26012,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "yes"
@@ -26595,10 +26031,24 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyFinaleLine7",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
               ]
             },
             {
@@ -26634,7 +26084,7 @@
               },
               "parameters": [
                 "Player",
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "",
                 "",
                 ""
@@ -26653,7 +26103,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "yes"
@@ -26681,7 +26131,7 @@
               },
               "parameters": [
                 "Player",
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "",
                 "",
                 ""
@@ -26700,7 +26150,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle1",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "no"
@@ -26755,13 +26205,21 @@
           "actions": [
             {
               "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
                 "TidyFinaleLine7",
                 "Text",
                 "=",
-                "\"Let's see...\""
+                "\"Now...\""
               ]
             },
             {
@@ -26774,41 +26232,35 @@
             },
             {
               "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets/sfx/notifs/correct.wav",
-                "",
-                "80",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
                 "TidyFinaleLine7",
                 "Text",
                 "=",
-                "\"Balanced!\""
+                "\"It is done.\""
               ]
             },
             {
               "type": {
-                "value": "Wait"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "3"
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle1Whole\""
               ]
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "PlaySound"
               },
               "parameters": [
-                "FinalePuzzle1",
+                "",
+                "assets/sfx/puzzle-noises/attention-jingle.wav",
+                "",
+                "70",
                 ""
               ]
             },
@@ -26817,149 +26269,10 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Environment",
+                "FinalePuzzle",
                 "Animation",
                 "=",
-                "\"magentamorn\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "TidyFinaleLine7",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "FinaleSequence1",
-                "!=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "FinaleSequence1",
-                ">",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TidyFinaleLine7",
-                "Text",
-                "=",
-                "\"Let's see...\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets/sfx/notifs/incorrect.wav",
-                "",
-                "80",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "FinaleSequence1",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TidyFinaleLine7",
-                "Text",
-                "=",
-                "\"Not quite!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Flash::FlashEffect::Flash"
-              },
-              "parameters": [
-                "FinalePuzzle1",
-                "FlashEffect",
-                "0.5",
-                "\"Glow\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TidyFinaleLine7",
-                "Text",
-                "=",
-                "\"Ready?\""
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle1",
-                "Effect",
-                "\"Glow\"",
-                "yes"
+                "\"Puzzle2Outline\""
               ]
             },
             {
@@ -26972,188 +26285,13 @@
             },
             {
               "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "FinalePuzzle1",
-                "Effect",
-                "\"Glow\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle1",
-                "Effect",
-                "\"Glow\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle1",
-                "Effect",
-                "\"Glow\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle1",
-                "Effect",
-                "\"Glow\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle1",
-                "Effect",
-                "\"Glow\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TidyFinaleLine7",
-                "Text",
-                "=",
-                "\"Ready?\""
-              ]
-            }
-          ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Puzzle 2",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Sequence"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
-              },
-              "parameters": [
-                "Environment",
+                "FinalePuzzle",
                 "Animation",
                 "=",
-                "\"magentamorn\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "FinalePuzzle2",
-                "506",
-                "367",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle2",
-                "Effect",
-                "\"Glow\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::IgnoreDefaultControls"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "yes"
+                "\"Puzzle2Whole\""
               ]
             },
             {
@@ -27161,37 +26299,18 @@
                 "value": "Wait"
               },
               "parameters": [
-                "2"
+                "0.5"
               ]
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "TidyFinaleLine7",
-                "Text",
+                "FinalePuzzle",
+                "Animation",
                 "=",
-                "\"Ready?\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle2",
-                "Effect",
-                "\"Glow\"",
-                "yes"
+                "\"Puzzle3Outline\""
               ]
             },
             {
@@ -27204,252 +26323,13 @@
             },
             {
               "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "FinalePuzzle2",
-                "Effect",
-                "\"Glow\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle2",
-                "Effect",
-                "\"Glow\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle2",
-                "Effect",
-                "\"Glow\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle2",
-                "Effect",
-                "\"Glow\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle2",
-                "Effect",
-                "\"Glow\"",
-                "no"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::IgnoreDefaultControls"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Solving"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "FinalePuzzle2",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle2",
-                "Effect",
-                "\"Glow\"",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "FinaleSequence2",
-                "+",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "FinalePuzzle2",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "EffectCapability::EffectBehavior::EnableEffect"
-              },
-              "parameters": [
-                "FinalePuzzle2",
-                "Effect",
-                "\"Glow\"",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "In/Correct Activation"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "TidyFinaleLine7",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "FinaleSequence2",
+                "FinalePuzzle",
+                "Animation",
                 "=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TidyFinaleLine7",
-                "Text",
-                "=",
-                "\"Let's see...\""
+                "\"Puzzle3Whole\""
               ]
             },
             {
@@ -27457,38 +26337,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets/sfx/notifs/correct.wav",
-                "",
-                "80",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TidyFinaleLine7",
-                "Text",
-                "=",
-                "\"Balanced!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
+                "0.5"
               ]
             },
             {
@@ -27529,6 +26378,96 @@
             },
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle4Outline\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle4Whole\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle5Outline\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle5Whole\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyFinaleLine4",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -27537,21 +26476,286 @@
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
               },
               "parameters": [
-                "Environment",
-                "Animation",
-                "=",
-                "\"bluenoon\""
+                "TidyFinaleLine4",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
               ]
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "FinalePuzzle2",
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle6Outline\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle6Whole\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyFinaleLine5",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyFinaleLine5",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle7Outline\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle7Whole\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle8Outline\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "FinalePuzzle",
+                "Animation",
+                "=",
+                "\"Puzzle8Whole\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Black",
+                "Tween",
+                "\"FadeAway\"",
+                "255",
+                "\"linear\"",
+                "3",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Black",
+                "Tween",
+                "\"FadeAway\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyFinaleLine6",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TidyFinaleLine6",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Credits",
+                "Tween",
+                "\"Appear\"",
+                "255",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Credits",
+                "Tween",
+                "\"Disappear\"",
+                "0",
+                "\"linear\"",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Start Menu\"",
                 ""
               ]
             }
@@ -27577,7 +26781,7 @@
                 "value": "BuiltinCommonInstructions::CompareNumbers"
               },
               "parameters": [
-                "FinaleSequence2",
+                "FinaleSequence1",
                 "!=",
                 "3"
               ]
@@ -27587,7 +26791,7 @@
                 "value": "BuiltinCommonInstructions::CompareNumbers"
               },
               "parameters": [
-                "FinaleSequence2",
+                "FinaleSequence1",
                 ">",
                 "0"
               ]
@@ -27600,25 +26804,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "TidyFinaleLine7",
-                "Text",
-                "=",
-                "\"Let's see...\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "2"
-              ]
-            },
             {
               "type": {
                 "value": "PlaySound"
@@ -27636,7 +26821,7 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "FinaleSequence2",
+                "FinaleSequence1",
                 "=",
                 "0"
               ]
@@ -27657,7 +26842,7 @@
                 "value": "Flash::FlashEffect::Flash"
               },
               "parameters": [
-                "FinalePuzzle2",
+                "FinalePuzzle",
                 "FlashEffect",
                 "0.5",
                 "\"Glow\"",
@@ -27680,7 +26865,7 @@
                 "TidyFinaleLine7",
                 "Text",
                 "=",
-                "\"Ready?\""
+                "\"Together?\""
               ]
             },
             {
@@ -27688,7 +26873,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle2",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "yes"
@@ -27707,7 +26892,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle2",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "no"
@@ -27726,7 +26911,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle2",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "yes"
@@ -27745,7 +26930,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle2",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "no"
@@ -27764,7 +26949,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle2",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "yes"
@@ -27783,7 +26968,7 @@
                 "value": "EffectCapability::EffectBehavior::EnableEffect"
               },
               "parameters": [
-                "FinalePuzzle2",
+                "FinalePuzzle",
                 "Effect",
                 "\"Glow\"",
                 "no"
@@ -27809,329 +26994,9 @@
               ]
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Puzzle 3",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Sequence"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Solving"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "In/Correct Activation"
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Puzzle 4",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Sequence"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Solving"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "In/Correct Activation"
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Puzzle 5",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Sequence"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Solving"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "In/Correct Activation"
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Puzzle 6",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Sequence"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Solving"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "In/Correct Activation"
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Puzzle 7",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Sequence"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Solving"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "In/Correct Activation"
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Puzzle 8",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Sequence"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Solving"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "In/Correct Activation"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Fade",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -28191,6 +27056,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fade",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
