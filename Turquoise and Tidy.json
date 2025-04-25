@@ -11,7 +11,7 @@
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
-    "orientation": "landscape",
+    "orientation": "default",
     "packageName": "com.example.gamename",
     "pixelsRounding": true,
     "projectUuid": "426063ec-fdf5-4cf0-b3c6-ee278d40bd9f",
@@ -20,7 +20,7 @@
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Turquoise and Tidy",
-    "description": "",
+    "description": "Play as a pixel who discovers the true meaning of balance in a world controlled by order and harmony.",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -49,8 +49,12 @@
       "placement": "bottom-left",
       "showWatermark": true
     },
-    "authorIds": [],
-    "authorUsernames": [],
+    "authorIds": [
+      "gr6MIcQqSvXgF22bgMWsTyiwWh72"
+    ],
+    "authorUsernames": [
+      "LeepFrog"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -3387,6 +3391,12 @@
               "parameters": [
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -8833,7 +8843,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "0.5"
+                "2"
               ]
             },
             {
@@ -12158,39 +12168,6 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Fade",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
           "name": "Background",
           "renderingType": "",
           "visibility": true,
@@ -12239,6 +12216,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fade",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -20649,7 +20659,7 @@
                 "0",
                 "\"linear\"",
                 "1",
-                "yes"
+                "no"
               ]
             },
             {
@@ -22979,39 +22989,6 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Fade",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
           "name": "Background",
           "renderingType": "",
           "visibility": true,
@@ -23060,6 +23037,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fade",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -24819,41 +24829,6 @@
           "name": "FinaleSequence1",
           "type": "number",
           "value": 0
-        },
-        {
-          "name": "FinaleSequence2",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "FinaleSequence3",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "FinaleSequence4",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "FinaleSequence5",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "FinaleSequence6",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "FinaleSequence7",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "FinaleSequence8",
-          "type": "number",
-          "value": 0
         }
       ],
       "instances": [
@@ -24999,7 +24974,7 @@
           "persistentUuid": "bd74f352-72d1-44a1-b039-ceeade24b908",
           "width": 0,
           "x": 202,
-          "y": 578,
+          "y": 568,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -25114,7 +25089,7 @@
           "persistentUuid": "30b2f1d9-affd-4dff-a847-51e8cf363a9d",
           "width": 0,
           "x": 545,
-          "y": 367,
+          "y": 368,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -25122,15 +25097,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 282,
           "keepRatio": true,
           "layer": "Fade",
           "name": "Credits",
           "persistentUuid": "c2be164e-c5ef-44b5-aa71-f6366143a88a",
-          "width": 0,
-          "x": 252,
-          "y": 234,
+          "width": 830,
+          "x": 200,
+          "y": 179,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -26349,7 +26325,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "CREDITS\n\n- Hacked Font from FontSpace (“Hacked” by “David Libeau”)\n- Backgrounds from Craftpix.net\n- Sfx from authors on Freesound\n- All other assets made by me or taken for free use",
+          "string": "CREDITS\n\n- Hacked Font from FontSpace (“Hacked” by “David Libeau”), all fonts from FontSpace\n- Backgrounds from Craftpix.net\n- Sfx from authors on Freesound:\n\t • Commercial Attention Jingle by Sabacky -- https://freesound.org/s/774099/ -- License: Attribution 4.0\n\t • UIGlitch_On Screen Glitch Patch x 6_EM by newlocknew -- https://freesound.org/s/791123/ -- License: Attribution NonCommercial 4.0",
           "font": "assets/fonts/tokyo-font/TokyoRegular-3lmq6.ttf",
           "textAlignment": "center",
           "characterSize": 25,
@@ -26372,7 +26348,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "CREDITS\n\n- Hacked Font from FontSpace (“Hacked” by “David Libeau”)\n- Backgrounds from Craftpix.net\n- Sfx from authors on Freesound\n- All other assets made by me or taken for free use",
+            "text": "CREDITS\n\n- Hacked Font from FontSpace (“Hacked” by “David Libeau”), all fonts from FontSpace\n- Backgrounds from Craftpix.net\n- Sfx from authors on Freesound:\n\t • Commercial Attention Jingle by Sabacky -- https://freesound.org/s/774099/ -- License: Attribution 4.0\n\t • UIGlitch_On Screen Glitch Patch x 6_EM by newlocknew -- https://freesound.org/s/791123/ -- License: Attribution NonCommercial 4.0",
             "font": "assets/fonts/tokyo-font/TokyoRegular-3lmq6.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -26468,17 +26444,6 @@
               },
               "parameters": [
                 "Boundary"
-              ]
-            },
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "TextActivateNubs",
-                "Opacity",
-                "=",
-                "0"
               ]
             },
             {
@@ -26694,7 +26659,7 @@
               "parameters": [
                 "TidyFinaleLine2",
                 "=",
-                "325"
+                "320"
               ]
             },
             {
@@ -27479,7 +27444,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "2"
+                "5"
               ]
             },
             {
@@ -27501,7 +27466,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "4"
+                "2"
               ]
             },
             {
@@ -27645,7 +27610,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "3"
+                "4"
               ]
             },
             {
